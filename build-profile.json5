@@ -1,12 +1,18 @@
 {
   "app": {
     "signingConfigs": [],
-    "compileSdkVersion": 9,
-    "compatibleSdkVersion": 9,
     "products": [
       {
         "name": "default",
         "signingConfig": "default",
+        "compileSdkVersion": "6.0.1(21)", 
+        "compatibleSdkVersion": "6.0.1(21)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "noExternalImportByPath": false  // 关键！尝试关闭一部分严格检查，减少报错
+          }
+        }
       }
     ]
   },

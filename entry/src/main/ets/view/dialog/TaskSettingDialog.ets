@@ -86,7 +86,8 @@ export struct TargetSettingDialog {
           .width(Const.THOUSANDTH_900,)
           .height(Const.THOUSANDTH_800,)
           .onChange((value) => {
-            this.currentValue = value?.split(' ')[0];
+            // 增加 (value as string) 类型断言
+            this.currentValue = (value as string)?.split(' ')[0];
           })
       }
 
