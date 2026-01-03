@@ -37,7 +37,7 @@ export struct UserInfoComponent {
     } catch (err) {
       console.error('Failed to get preferences.', err);
       // 降级处理：直接从资源读取
-      this.nickname = await this.context.resourceManager.getStringValue($r('app.string.user_name'));
+      this.nickname = 'Jolin'; // 这里为了保险起见，如果读资源失败，直接用字符串
     }
   }
 
@@ -72,7 +72,7 @@ export struct UserInfoComponent {
           Text(this.nickname)
             .fontSize($r('app.float.default_20'))
             .fontWeight(FontWeight.Bold)
-            .fontColor($r('app.color.title_color'))
+            .fontColor(Color.Black) // 修复：直接使用 Color.Black 替代 app.color.title_color
 
           // 添加一个小图标提示可编辑
           Image($r('sys.media.ohos_ic_public_edit')) // 使用系统自带编辑图标
@@ -87,7 +87,7 @@ export struct UserInfoComponent {
 
         Text(this.signature)
           .fontSize($r('app.float.default_14'))
-          .fontColor($r('app.color.title_color'))
+          .fontColor(Color.Gray) // 修复：直接使用 Color.Gray 替代可能不存在的颜色资源
           .opacity(0.6)
           .margin({ top: $r('app.float.default_4') })
       }
@@ -147,7 +147,7 @@ struct NicknameEditDialog {
             }
             this.controller?.close();
           })
-          .backgroundColor('#007DFF')
+          .backgroundColor('#007DFF') // 使用十六进制颜色避免依赖
           .fontColor(Color.White)
           .width('40%')
       }
