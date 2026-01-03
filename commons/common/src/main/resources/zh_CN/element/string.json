@@ -54,67 +54,7 @@
     },
     {
       "name": "no_task",
-      "value": "暂无任务，请添加任务"
-    },
-    {
-      "name": "task_getup",
-      "value": "早起"
-    },
-    {
-      "name": "task_drink",
-      "value": "喝水"
-    },
-    {
-      "name": "task_apple",
-      "value": "吃苹果"
-    },
-    {
-      "name": "task_smile",
-      "value": "每日微笑"
-    },
-    {
-      "name": "task_brush",
-      "value": "每日刷牙"
-    },
-    {
-      "name": "task_sleep",
-      "value": "早睡"
-    },
-    {
-      "name": "clock_in",
-      "value": "打卡"
-    },
-    {
-      "name": "got_it",
-      "value": "知道了"
-    },
-    {
-      "name": "was_done",
-      "value": "已完成"
-    },
-    {
-      "name": "my_achievement",
-      "value": "我的成就"
-    },
-    {
-      "name": "achievement_level",
-      "value": "连续%s天达成"
-    },
-    {
-      "name": "mine_personal_data",
-      "value": "个人资料"
-    },
-    {
-      "name": "mine_check_updates",
-      "value": "检查更新"
-    },
-    {
-      "name": "mine_about",
-      "value": "关于"
-    },
-    {
-      "name": "mine_achievement",
-      "value": "成就"
+      "value": "暂无任务"
     },
     {
       "name": "add_task",
@@ -150,15 +90,7 @@
     },
     {
       "name": "skip_ads",
-      "value": "跳过广告 %d s"
-    },
-    {
-      "name": "privacy_title",
-      "value": "请在“健康生活”权限管理中开启“XX”权限"
-    },
-    {
-      "name": "privacy_desc",
-      "value": "该功能支持XX…（功能介绍）"
+      "value": "跳过 %d"
     },
     {
       "name": "confirm",
@@ -169,6 +101,14 @@
       "value": "退出"
     },
     {
+      "name": "privacy_title",
+      "value": "请在“健康生活”权限管理中开启“XX”权限"
+    },
+    {
+      "name": "privacy_desc",
+      "value": "该功能支持XX... (功能介绍)"
+    },
+    {
       "name": "cancel",
       "value": "取消"
     },
@@ -177,16 +117,32 @@
       "value": "Jolin"
     },
     {
-      "name": "user_level",
-      "value": "LV.7"
+      "name": "task_getup",
+      "value": "早起"
     },
     {
-      "name": "user_signature",
-      "value": "这是一条简短的个人签名"
+      "name": "task_drink",
+      "value": "喝水"
+    },
+    {
+      "name": "task_apple",
+      "value": "吃苹果"
+    },
+    {
+      "name": "task_smile",
+      "value": "每日微笑"
+    },
+    {
+      "name": "task_brush",
+      "value": "每日刷牙"
+    },
+    {
+      "name": "task_sleep",
+      "value": "早睡"
     },
     {
       "name": "unit_liter",
-      "value": "L"
+      "value": "升"
     },
     {
       "name": "unit_number",
@@ -197,8 +153,64 @@
       "value": "次"
     },
     {
+      "name": "clock_in",
+      "value": "打卡"
+    },
+    {
+      "name": "was_done",
+      "value": "已完成"
+    },
+    {
       "name": "unit_pre_day",
-      "value": "/ 天"
+      "value": "次/天"
+    },
+    {
+      "name": "my_achievement",
+      "value": "我的成就"
+    },
+    {
+      "name": "achievement_level",
+      "value": "成就等级"
+    },
+    {
+      "name": "task_goal",
+      "value": "任务目标"
+    },
+    {
+      "name": "task_clock_time",
+      "value": "打卡时间"
+    },
+    {
+      "name": "title_record",
+      "value": "记录"
+    },
+    {
+      "name": "title_task_list",
+      "value": "任务列表"
+    },
+    {
+      "name": "mine_personal_data",
+      "value": "个人资料"
+    },
+    {
+      "name": "mine_check_updates",
+      "value": "检查更新"
+    },
+    {
+      "name": "mine_achievement",
+      "value": "我的成就"
+    },
+    {
+      "name": "tab_discovery",
+      "value": "发现"
+    },
+    {
+      "name": "nickname_edit",
+      "value": "修改昵称"
+    },
+    {
+      "name": "nickname_input_placeholder",
+      "value": "请输入新昵称"
     }
   ]
 }
