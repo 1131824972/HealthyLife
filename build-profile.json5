@@ -1,0 +1,64 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\wyc11\\.ohos\\config\\default_HealthyLife-master_1mxyAYVQoA8ZmFT6Bnh4WqEv93Th3pFXF83tewvJqOo=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A2C385A6FD8A46EDD827BD6DB5AD6EAC8E5973B1AEB2941F8570BA93A7D98448BB5074ADC0CDB",
+          "profile": "C:\\Users\\wyc11\\.ohos\\config\\default_HealthyLife-master_1mxyAYVQoA8ZmFT6Bnh4WqEv93Th3pFXF83tewvJqOo=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\wyc11\\.ohos\\config\\default_HealthyLife-master_1mxyAYVQoA8ZmFT6Bnh4WqEv93Th3pFXF83tewvJqOo=.p12",
+          "storePassword": "0000001A8A4525421FE8BD11F321E160DD758397C3ED692071CC3D996649CC57A42546A4C11621FA1DBE"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "6.0.0(20)",
+        "compatibleSdkVersion": "6.0.0(20)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "default",
+      "srcPath": "./products/default",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "common",
+      "srcPath": "./commons/common",
+    },
+    {
+      "name": "healthylife",
+      "srcPath": "./features/healthylife",
+    }
+  ]
+}
