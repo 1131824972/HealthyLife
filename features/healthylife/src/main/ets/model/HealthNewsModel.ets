@@ -1,68 +1,72 @@
 /**
- * Health News Data Interface
+ * 健康资讯数据接口定义
+ * 用于规范新闻列表的数据结构
  */
 export interface HealthNews {
   id: number;
-  title: string;
-  summary: string;
-  publishTime: string;
-  source: string;
+  title: Resource | string;  // 标题：支持多语言资源或字符串
+  summary: Resource | string;// 摘要
+  publishTime: string;       // 发布时间
+  source: Resource | string; // 来源
 }
 
 /**
- * Mock Data Source
- * Simulates a network request to fetch health tips
+ * 模拟数据源模型
+ * 作用：模拟从网络服务器获取 JSON 数据的过程
  */
 export class HealthNewsModel {
   /**
-   * Simulate an HTTP network request using a Promise and setTimeout
-   * @returns Promise<Array<HealthNews>>
+   * 模拟 HTTP 网络请求
+   * 使用 Promise 封装异步操作，模拟真实开发中的 API 调用
+   * @returns Promise<Array<HealthNews>> 返回新闻数组的 Promise 对象
    */
   getNewsList(): Promise<Array<HealthNews>> {
     return new Promise((resolve) => {
-      // Simulate network delay (1 second)
+      // 使用 setTimeout 模拟 1秒 的网络延迟
       setTimeout(() => {
         const mockData: Array<HealthNews> = [
           {
             id: 1,
-            title: '每天喝八杯水真的科学吗？',
-            summary: '关于人体水分需求的深度解析，揭秘补水误区。',
+            title: $r('app.string.news_title_1'),
+            summary: $r('app.string.news_summary_1'),
             publishTime: '2025-01-02',
-            source: '健康日报'
+            source: $r('app.string.news_source_1')
           },
           {
             id: 2,
-            title: '早睡早起对免疫力的影响',
-            summary: '充足的睡眠是免疫系统的加油站，看看专家怎么说。',
+            title: $r('app.string.news_title_2'),
+            summary: $r('app.string.news_summary_2'),
             publishTime: '2025-01-01',
-            source: '生活百科'
+            source: $r('app.string.news_source_2')
           },
           {
             id: 3,
-            title: '适合上班族的办公室拉伸操',
-            summary: '拒绝久坐腰酸背痛，5分钟带你恢复活力。',
+            title: $r('app.string.news_title_3'),
+            summary: $r('app.string.news_summary_3'),
             publishTime: '2024-12-30',
-            source: '运动周刊'
+            source: $r('app.string.news_source_3')
           },
           {
             id: 4,
-            title: '冬季饮食：如何吃出健康',
-            summary: '冬季进补有讲究，这些食材千万别错过。',
+            title: $r('app.string.news_title_4'),
+            summary: $r('app.string.news_summary_4'),
             publishTime: '2024-12-28',
-            source: '美食与健康'
+            source: $r('app.string.news_source_4')
           },
           {
             id: 5,
-            title: 'BMI 指数与心血管健康的关系',
-            summary: '保持标准体重，远离慢性病风险。',
+            title: $r('app.string.news_title_5'),
+            summary: $r('app.string.news_summary_5'),
             publishTime: '2024-12-25',
-            source: '医学前沿'
+            source: $r('app.string.news_source_5')
           }
         ];
+        // 请求成功，返回数据
         resolve(mockData);
-      }, 1000); // 1000ms delay
+      }, 1000); // 延迟 1000 毫秒
     });
   }
 }
 
+// 导出单例对象
 export default new HealthNewsModel();

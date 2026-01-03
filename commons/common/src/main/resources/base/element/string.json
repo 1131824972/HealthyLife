@@ -211,6 +211,110 @@
     {
       "name": "nickname_input_placeholder",
       "value": "Please enter new nickname"
+    },
+    {
+      "name": "entry_bmi",
+      "value": "BMI Monitor"
+    },
+    {
+      "name": "bmi_title",
+      "value": "BMI Body Monitor"
+    },
+    {
+      "name": "bmi_height_placeholder",
+      "value": "Height (cm)"
+    },
+    {
+      "name": "bmi_weight_placeholder",
+      "value": "Weight (kg)"
+    },
+    {
+      "name": "bmi_btn_calculate",
+      "value": "Calculate"
+    },
+    {
+      "name": "bmi_result_prefix",
+      "value": "Your BMI: "
+    },
+    {
+      "name": "bmi_status_thin",
+      "value": "Underweight"
+    },
+    {
+      "name": "bmi_status_normal",
+      "value": "Normal"
+    },
+    {
+      "name": "bmi_status_overweight",
+      "value": "Overweight"
+    },
+    {
+      "name": "bmi_input_error",
+      "value": "Invalid input"
+    },
+    {
+      "name": "loading_news",
+      "value": "Loading health news..."
+    },
+    {
+      "name": "news_title_1",
+      "value": "Is drinking 8 glasses of water a day scientific?"
+    },
+    {
+      "name": "news_summary_1",
+      "value": "In-depth analysis of human water needs, revealing hydration myths."
+    },
+    {
+      "name": "news_source_1",
+      "value": "Health Daily"
+    },
+    {
+      "name": "news_title_2",
+      "value": "Impact of early sleep on immunity"
+    },
+    {
+      "name": "news_summary_2",
+      "value": "Adequate sleep fuels the immune system, see what experts say."
+    },
+    {
+      "name": "news_source_2",
+      "value": "Life Encyclopedia"
+    },
+    {
+      "name": "news_title_3",
+      "value": "Office stretching exercises for office workers"
+    },
+    {
+      "name": "news_summary_3",
+      "value": "Say no to back pain from sitting, restore vitality in 5 minutes."
+    },
+    {
+      "name": "news_source_3",
+      "value": "Sports Weekly"
+    },
+    {
+      "name": "news_title_4",
+      "value": "Winter Diet: How to eat healthily"
+    },
+    {
+      "name": "news_summary_4",
+      "value": "Winter tonic tips, don't miss these ingredients."
+    },
+    {
+      "name": "news_source_4",
+      "value": "Food & Health"
+    },
+    {
+      "name": "news_title_5",
+      "value": "BMI and Cardiovascular Health"
+    },
+    {
+      "name": "news_summary_5",
+      "value": "Maintain standard weight to stay away from chronic diseases."
+    },
+    {
+      "name": "news_source_5",
+      "value": "Medical Frontiers"
     }
   ]
 }

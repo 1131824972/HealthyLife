@@ -211,6 +211,110 @@
     {
       "name": "nickname_input_placeholder",
       "value": "请输入新昵称"
+    },
+    {
+      "name": "entry_bmi",
+      "value": "BMI 体质监测"
+    },
+    {
+      "name": "bmi_title",
+      "value": "BMI 体质监测"
+    },
+    {
+      "name": "bmi_height_placeholder",
+      "value": "请输入身高 (cm)"
+    },
+    {
+      "name": "bmi_weight_placeholder",
+      "value": "请输入体重 (kg)"
+    },
+    {
+      "name": "bmi_btn_calculate",
+      "value": "开始计算"
+    },
+    {
+      "name": "bmi_result_prefix",
+      "value": "您的 BMI 值: "
+    },
+    {
+      "name": "bmi_status_thin",
+      "value": "偏瘦"
+    },
+    {
+      "name": "bmi_status_normal",
+      "value": "正常"
+    },
+    {
+      "name": "bmi_status_overweight",
+      "value": "超重"
+    },
+    {
+      "name": "bmi_input_error",
+      "value": "请输入有效数值"
+    },
+    {
+      "name": "loading_news",
+      "value": "正在获取健康资讯..."
+    },
+    {
+      "name": "news_title_1",
+      "value": "每天喝八杯水真的科学吗？"
+    },
+    {
+      "name": "news_summary_1",
+      "value": "关于人体水分需求的深度解析，揭秘补水误区。"
+    },
+    {
+      "name": "news_source_1",
+      "value": "健康日报"
+    },
+    {
+      "name": "news_title_2",
+      "value": "早睡早起对免疫力的影响"
+    },
+    {
+      "name": "news_summary_2",
+      "value": "充足的睡眠是免疫系统的加油站，看看专家怎么说。"
+    },
+    {
+      "name": "news_source_2",
+      "value": "生活百科"
+    },
+    {
+      "name": "news_title_3",
+      "value": "适合上班族的办公室拉伸操"
+    },
+    {
+      "name": "news_summary_3",
+      "value": "拒绝久坐腰酸背痛，5分钟带你恢复活力。"
+    },
+    {
+      "name": "news_source_3",
+      "value": "运动周刊"
+    },
+    {
+      "name": "news_title_4",
+      "value": "冬季饮食：如何吃出健康"
+    },
+    {
+      "name": "news_summary_4",
+      "value": "冬季进补有讲究，这些食材千万别错过。"
+    },
+    {
+      "name": "news_source_4",
+      "value": "美食与健康"
+    },
+    {
+      "name": "news_title_5",
+      "value": "BMI 指数与心血管健康的关系"
+    },
+    {
+      "name": "news_summary_5",
+      "value": "保持标准体重，远离慢性病风险。"
+    },
+    {
+      "name": "news_source_5",
+      "value": "医学前沿"
     }
   ]
 }

@@ -11,7 +11,7 @@ export struct MineComponent {
       Column() {
         UserInfoComponent()
 
-        // ... (保持原来的 "个人资料" Row 不变) ...
+        // 个人资料
         Row({ space: $r('app.float.default_16') }) {
           Image($r('app.media.book_closed_per'))
             .width($r('app.float.default_24'))
@@ -45,7 +45,7 @@ export struct MineComponent {
           .color($r('app.float.default_1'))
           .width(Const.THOUSANDTH_880)
 
-        // ... (保持原来的 "检查更新" Row 不变) ...
+        // 检查更新
         Row({ space: $r('app.float.default_16') }) {
           Image($r('app.media.arrow_up_circle'))
             .width($r('app.float.default_24'))
@@ -71,7 +71,7 @@ export struct MineComponent {
           bottom: $r('app.float.default_6')
         })
 
-        // ... (保持原来的 "成就" Row 不变) ...
+        // 成就
         Row({ space: $r('app.float.default_16') }) {
           Image($r('app.media.star_trophy'))
             .width($r('app.float.default_24'))
@@ -104,13 +104,13 @@ export struct MineComponent {
           this.pageStack.pushPathByName('AchievementComponent', '');
         })
 
-        // ======= 新增：BMI 监测入口 =======
+        // ======= BMI 监测入口 (Fixed) =======
         Row({ space: $r('app.float.default_16') }) {
-          // 这里暂时复用一个图标，如果找不到 scale 图标可以使用 resource 中已有的
           Image($r('app.media.ic_tabs_home_sel'))
             .width($r('app.float.default_24'))
             .height($r('app.float.default_24'))
-          Text("BMI 体质监测") // 这里可以直接写字符串，后续可移入 string.json
+          // [修复] 使用资源引用代替硬编码
+          Text($r('app.string.entry_bmi'))
             .fontColor($r('app.color.mine_font_color'))
             .fontSize($r('app.float.default_18'))
             .fontWeight(FontWeight.Medium)
@@ -132,7 +132,6 @@ export struct MineComponent {
           top: $r('app.float.default_12')
         })
         .onClick(() => {
-          // 跳转到 BMI 页面
           this.pageStack.pushPathByName('BMIComponent', null);
         })
         // ================================
