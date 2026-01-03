@@ -120,20 +120,12 @@ SDK: HarmonyOS NEXT (API 12+)
 📸 运行效果
 
 首页 (Home)
-
+![Home.png](screenshots/Home.png)
 发现 (Discovery)
-
+![Discovery.png](screenshots/Discovery.png)
 BMI 监测 (BMI)
-
+![BMI.png](screenshots/BMI.png)
 个人中心 (Mine)
-
-
-
-[请补充发现页截图]
-
-[请补充BMI页截图]
-
-
-
-作者：软件工程专业学生
+![Mine.png](screenshots/Mine.png)
+作者：吴宇辰
 日期：2025年1月
